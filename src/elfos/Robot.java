@@ -9,10 +9,11 @@ public class Robot {
 	private int defensa;
 	
 	
-	public Robot() {
+	public Robot(String nombre) {
 		
 		ataque = (int)(Math.random()*100)+1;
 		defensa = (int)(Math.random()*100)+1;
+		puntosVida = 100;
 	}
 
 
